@@ -1,34 +1,34 @@
-const trackS = document.getElementById('sliderTrack');
-const slideWidthS = 240;
-let currentIndex = 0;
+const tracck = document.getElementById('sliderTrack');
+const slidewidht = 240;
+let currentIndexx = 0;
 
 // Clone slides for seamless loop
-const slides = trackS.children;
+const slides = tracck.children;
 const totalOriginalSlides = slides.length;
 
 // Clone and append
 for (let i = 0; i < totalOriginalSlides; i++) {
-  trackS.appendChild(slides[i].cloneNode(true));
+  tracck.appendChild(slides[i].cloneNode(true));
 }
 
-const totalSlides = trackS.children.length;
+const totalSlides = tracck.children.length;
 
 function moveToNextSlide() {
-  currentIndex++;
-  trackS.style.transition = 'transform 0.5s ease-in-out';
-  trackS.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
+  currentIndexx++;
+  tracck.style.transition = 'transform 0.5s ease-in-out';
+  tracck.style.transform = `translateX(${-slidewidht * currentIndexx}px)`;
 
   // Reset to original after clones (invisible)
-  if (currentIndex === totalOriginalSlides) {
+  if (currentIndexs === totalOriginalSlides) {
     setTimeout(() => {
-      trackS.style.transition = 'none';
-      trackS.style.transform = 'translateX(0)';
-      currentIndex = 0;
+      tracck.style.transition = 'none';
+      tracck.style.transform = 'translateX(0)';
+      currentIndexx = 0;
     }, 500); // Must match transition duration
   }
 }
 
-setInterval(moveToNextSlide, 5000); // 2 seconds delay
+setInterval(moveToNextSlide, 5000); // 5 seconds delay
 
 
 

@@ -1,0 +1,1130 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, "Open Sans", sans-serif;
+    }
+
+    body {
+      scroll-behavior: smooth;
+      /* overflow-y: hidden; */
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    :root {
+      --first-text-color: #fff;
+      --sceond-text-color: #fdd415;
+      --third-text-color: #012f5c;
+      --forth-text-color: #333;
+      --fivth-text-color: #999999;
+      --background-color: #f0eded;
+
+
+    }
+
+    /* navbar scetion */
+    .header {
+      display: flex;
+      height: 40px;
+      justify-content: space-between;
+      padding: 10px 50px;
+    }
+
+    .phone {
+      height: 20px;
+      width: 230px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .date-time {
+      width: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .fa-phone {
+      height: 17px;
+      background-color: var(--sceond-text-color);
+      color: var(--first-text-color);
+      border-radius: 4px;
+      font-size: 12px;
+      padding: 3px;
+
+    }
+
+    .fa-clock {
+      height: 15px;
+      color: var(--sceond-text-color);
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 2px;
+    }
+
+    .navbar {
+      background-color: black;
+      display: flex;
+      height: 80px;
+      justify-content: space-between;
+      padding: 0px 50px;
+    }
+
+    .img img {
+      height: 80px;
+    }
+
+    .menu-icon {
+      width: 590px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      width: 400px;
+    }
+
+    .icons {
+      width: 70px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    /* hero section */
+
+    .hero-section {
+      width: 100%;
+      height: 470px;
+      background-image: url("https://profitfusionindia.com/img/HP2.jpg");
+      background-size: cover;
+    }
+
+    .pragrah {
+      float: right;
+      margin-right: 60px;
+      width: 700px;
+    }
+
+    .pragrah h2 {
+      width: 400px;
+      float: right;
+      margin-top: 90px;
+      text-align: right;
+      font-size: 40px;
+      font-weight: 900;
+      color: var(--first-text-color);
+    }
+
+    .pragrah span {
+      float: right;
+      text-align: right;
+      font-size: 40px;
+      font-weight: 900;
+      width: 600px;
+      color: var(--sceond-text-color);
+    }
+
+    .pgh {
+      width: 680px;
+      float: right;
+      margin-right: 50px;
+      color: var(--first-text-color);
+      text-align: right;
+      line-height: 30px;
+    }
+
+    .pgh button {
+      margin-top: 20px;
+      border: none;
+      padding: 13px;
+      font-size: 16px;
+      background-color: #5cb85c;
+      border-radius: 6px;
+      color: var(--first-text-color);
+    }
+
+    .pgh button:hover {
+      background-color: #348f34;
+    }
+
+    /* content section */
+
+    .welcome {
+      background-color: var(--background-color);
+      text-align: center;
+    }
+
+    .welcome h2 {
+      padding: 10px;
+      font-size: 35px;
+      font-weight: 800;
+      font-family: "open sans";
+      color: var(--third-text-color);
+    }
+
+    .welcome hr {
+      width: 50px;
+      margin: auto;
+      padding: auto;
+      border: none;
+      border-radius: 10px;
+      height: 8px;
+      background-color: var(--sceond-text-color);
+    }
+
+    .welcome p {
+      font-size: 15px;
+      padding: 20px 15px;
+      line-height: 30px;
+      text-align: center;
+      color: var(--forth-text-color);
+    }
+
+    /* card section */
+
+    .Specialist h2 {
+      padding: 10px;
+      font-size: 35px;
+      font-weight: 800;
+      font-family: "open sans";
+      color: var(--third-text-color);
+      text-align: center;
+    }
+
+    .Specialist hr {
+      width: 50px;
+      margin: auto;
+      padding: auto;
+      border: none;
+      border-radius: 10px;
+      height: 8px;
+      background-color: var(--sceond-text-color);
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 40px 60px;
+    }
+
+    .card {
+      height: 500px;
+      width: 370px;
+
+    }
+
+    .imgs {
+      height: 50%;
+      width: 100%;
+      background-image: url("https://profitfusionindia.com/img/Web-development-theme.jpg");
+      position: relative;
+    }
+
+    #img1 {
+      height: 50%;
+      width: 100%;
+      background-image: url("https://profitfusionindia.com/img/Digital-Marketing-Theme.jpg");
+      background-size: cover;
+      position: relative;
+    }
+
+    #img2 {
+      height: 50%;
+      width: 100%;
+      background-image: url("https://profitfusionindia.com/img/Application-Development-Theme.jpg");
+      background-size: cover;
+      position: relative;
+    }
+
+    #img3 {
+      height: 50%;
+      width: 100%;
+      background-image: url("https://profitfusionindia.com/img/Graphic-Design-theme.jpg");
+      background-size: cover;
+      position: relative;
+    }
+
+    #img4 {
+      height: 50%;
+      width: 100%;
+      background-image: url("https://profitfusionindia.com/img/Video-editing-theme.jpg");
+      background-size: cover;
+      position: relative;
+    }
+
+    #img5 {
+      height: 50%;
+      width: 100%;
+      background-image: url("https://profitfusionindia.com/img/content-writing-service.jpg");
+      background-size: cover;
+      position: relative;
+    }
+
+    .zoominout {
+      height: 50%;
+      width: 50%;
+      background-color: var(--third-text-color);
+      opacity: 0;
+      transition: .5s ease;
+      position: absolute;
+      top: 63px;
+      left: 93px;
+    }
+
+    .imgs:hover .zoominout {
+      opacity: .7;
+      transform: scale(2);
+    }
+
+    .fa-arrow-right {
+      opacity: 0;
+      background-color: var(--sceond-text-color);
+      border-radius: 3px;
+      top: 100px;
+      left: 180px;
+      padding: 10px;
+      position: absolute;
+      transition: .6s ease;
+    }
+
+    .imgs:hover .fa-arrow-right {
+      opacity: 1;
+    }
+
+    .card hr {
+      width: 38px;
+      border: none;
+      margin-left: 0;
+      border-radius: 10px;
+      height: 5px;
+      background-color: var(--sceond-text-color);
+    }
+
+    .card h4 {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      width: 300px;
+      font-size: 25px;
+      color: var(--third-text-color);
+    }
+
+    .card p {
+      line-height: 30px;
+      text-align: justify;
+      font-size: 13px;
+      color: var(--fivth-text-color);
+    }
+
+    /* bg heading */
+    .bg-img {
+      background-image: url("https://profitfusionindia.com/assets/img/Untitled-1.webp");
+      background-attachment: fixed;
+    }
+
+    .bg {
+      width: 100%;
+      height: 150px;
+      background-color: #012f5ce5;
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    .bg h2 {
+      color: var(--first-text-color);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .bg h2 span {
+      color: var(--sceond-text-color);
+    }
+
+    /* about section */
+
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 65px;
+    }
+
+    .iphone {
+      margin-left: 20px;
+      height: 500px;
+      width: 230px;
+      border-radius: 50px;
+      background-color: var(--third-text-color);
+    }
+
+    .iphone img {
+      position: absolute;
+      left: 75px;
+    }
+
+    .iphone h3 {
+      /* position: absolute; */
+      color: var(--first-text-color);
+      position: relative;
+      top: 150px;
+      left: 30px;
+      font-size: 25px;
+      width: 160px;
+    }
+
+    .iphone h3 span {
+      color: var(--sceond-text-color);
+    }
+
+    .iphone p {
+      color: var(--first-text-color);
+      position: relative;
+      top: 160px;
+      left: 30px;
+      font-size: 13px;
+      width: 151px;
+      font-style: italic;
+    }
+
+    .iphone button {
+      background-color: var(--sceond-text-color);
+      border: none;
+      padding: 10px;
+      position: relative;
+      top: 200px;
+      left: 30px;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .iphone button:hover {
+      background-color: #be9d0d;
+    }
+
+    /* gird section */
+
+    .girds {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: space-between;
+    }
+
+    .gird {
+      display: flex;
+      justify-content: space-between;
+      width: 400px;
+    }
+
+
+
+    .icon {
+      border: 3px solid var(--sceond-text-color);
+      border-radius: 80%;
+      height: 90px;
+      width: 94px;
+    }
+
+    .icon img {
+      height: 50px;
+      width: 60px;
+      margin-top: 18px;
+      margin-left: 16px;
+    }
+
+    .pr {
+      width: 283px;
+    }
+
+    .pr h3 {
+      color: var(--third-text-color);
+      /* font-size: 23px; */
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-bottom: 10px;
+    }
+
+    .pr p {
+      color: var(--fivth-text-color);
+    }
+
+    /* Digital Marketing and Web Development  */
+
+    .dm {
+      height: 400px;
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--background-color);
+      padding: 30px 80px;
+    }
+
+    .d {
+      height: 165px;
+    }
+
+    .anim {
+      position: relative;
+    }
+
+    .d h2 {
+      width: 555px;
+      font-size: 35px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 750;
+      line-height: 35px;
+      margin-bottom: 13px;
+      color: var(--third-text-color);
+    }
+
+    .d hr {
+      width: 45px;
+      border: none;
+      margin-left: 0;
+      border-radius: 10px;
+      height: 10px;
+      background-color: var(--sceond-text-color);
+    }
+
+    .anim p {
+      color: var(--third-text-color);
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .f {
+      background-color: var(--sceond-text-color);
+      border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      padding-top: 15px;
+      padding-left: 11px;
+      position: absolute;
+      top: 8px;
+      left: 80%;
+      animation: first1 0.8s ease;
+    }
+
+    @keyframes first1 {
+      from {
+        left: 0%;
+      }
+
+      to {
+        left: 80%;
+      }
+    }
+
+    .s {
+      background-color: var(--sceond-text-color);
+      border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      padding-top: 15px;
+      padding-left: 11px;
+      position: absolute;
+      top: 70px;
+      left: 85%;
+      animation: second2 0.8s ease;
+    }
+
+    @keyframes second2 {
+      from {
+        left: 0%;
+      }
+
+      to {
+        left: 85%;
+      }
+    }
+
+    .t {
+      background-color: var(--sceond-text-color);
+      border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      padding-top: 15px;
+      padding-left: 11px;
+      position: absolute;
+      top: 133px;
+      left: 95%;
+      animation: third3 0.8s ease;
+    }
+
+    @keyframes third3 {
+      from {
+        left: 0%;
+      }
+
+      to {
+        left: 95%;
+      }
+    }
+
+    #f {
+      width: 85%;
+      border: none;
+      margin-left: 0;
+      height: 5px;
+      margin-bottom: 30px;
+      background-color: var(--third-text-color);
+      animation: first 0.8s ease;
+    }
+
+    @keyframes first {
+      from {
+        width: 0%;
+      }
+
+      to {
+        width: 85%;
+      }
+    }
+
+    #s {
+      width: 90%;
+      border: none;
+      margin-left: 0;
+      height: 5px;
+      margin-bottom: 30px;
+      background-color: var(--third-text-color);
+      /* animation-duration: 1s;
+        animation-iteration-count: 1; */
+      animation: second 0.8s ease;
+    }
+
+    @keyframes second {
+      from {
+        width: 0%;
+      }
+
+      to {
+        width: 90%;
+      }
+    }
+
+    #t {
+      width: 99%;
+      border: none;
+      margin-left: 0;
+      height: 5px;
+      margin-bottom: 30px;
+      background-color: var(--third-text-color);
+      /* animation-duration: 1s;
+        animation-iteration-count: 1; */
+      animation: third 0.8s ease;
+    }
+
+    @keyframes third {
+      from {
+        width: 0%;
+      }
+
+      to {
+        width: 99%;
+      }
+    }
+
+    .person img {
+      height: 300px;
+      width: 450px;
+    }
+
+    /* Our service */
+
+    .service h2 {
+      padding: 10px;
+      font-size: 35px;
+      font-weight: 800;
+      font-family: "open sans";
+      color: var(--third-text-color);
+      text-align: center;
+    }
+
+    .service hr {
+      width: 50px;
+      margin: auto;
+      padding: auto;
+      border: none;
+      border-radius: 10px;
+      height: 8px;
+      margin-bottom: 30px;
+      background-color: var(--sceond-text-color);
+    }
+
+    .ancar {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .ancar a{
+      color: var(--forth-text-color);
+    }
+    #c {
+      color: var(--third-text-color);
+      background-color: var(--sceond-text-color);
+      padding: 3px;
+      border-radius: 3px;
+      margin: 10px 5px;
+      cursor: pointer;
+      position: relative;
+      border: 1px solid #fff;
+
+    }
+
+    #n {
+      height: 7px;
+      width: 20px;
+      background-color: #fdd415;
+      display: block;
+      transform: rotate(45deg);
+      position: absolute;
+      bottom: 0;
+      left: 40%;
+      z-index: -1;
+    }
+
+    .cardes {
+      display: flex;
+      justify-content: space-around;
+      padding: 30px 35px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .image {
+      display: block;
+      width: 285px;
+      height: 168px;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: var(--third-text-color);
+      overflow: hidden;
+      width: 285px;
+      height: 0;
+      transition: .5s ease;
+    }
+
+    .container:hover .overlay {
+      height: 100%;
+    }
+
+    .text {
+      width: 285px;
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .texts {
+      width: 285px;
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .texts p {
+      width: 120px;
+      color: white;
+      font-size: 15px;
+      line-height: 30px;
+      position: absolute;
+      top: 100%;
+      left: 30%;
+    }
+
+    /* slider section  */
+    .bg-slid {
+      background-color: var(--background-color);
+      width: 100%;
+    }
+
+    .slider {
+      background-color: var(--background-color);
+      height: 170px;
+      align-items: center;
+      display: flex;
+      width: 94%;
+      overflow: hidden;
+      margin: auto;
+      position: relative;
+    }
+
+    .slider-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: max-content;
+    }
+
+    .slider-track img {
+      margin: 0px 18px;
+      width: 204px;
+      height: 107px;
+      object-fit: contain;
+      flex-shrink: 0;
+      animation: slider 3s ease-in-out;
+    }
+
+    .bok-img {
+      background-attachment: fixed;
+      background: url("https://profitfusionindia.com/assets/img/Untitled-1.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .book-bg {
+      height: 380px;
+      display: flex;
+      padding: 0px 55px;
+      justify-content: space-between;
+      background-color: #012f5ce5;
+    }
+
+    .book-pgh {
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+      padding: 20px 0px;
+    }
+
+    .book-pgh h2 {
+      font-size: 50px;
+      color: var(--first-text-color);
+      font-weight: 1200;
+      width: 600px;
+      line-height: 45px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .inputs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      width: 500px;
+      justify-content: space-between;
+    }
+
+    .inputs input {
+      width: 245px;
+      height: 50px;
+      background: transparent;
+      border: 2px solid var(--first-text-color);
+      border-radius: 30px;
+      padding: 0px 15px;
+      outline: none;
+    }
+
+    ::placeholder {
+      color: var(--first-text-color);
+    }
+
+
+    .inputs input[type=text]:focus {
+      box-shadow: 0px 0px 15px #3292f0;
+    }
+
+    .inputs input[type=submit] {
+      background-color: var(--sceond-text-color);
+      color: var(--third-text-color);
+      font-size: 20px;
+      border: none;
+      font-weight: 500;
+    }
+
+    .book-img {
+      height: 398px;
+      width: 400px;
+      background-image: url("https://profitfusionindia.com/assets/img/[removal.ai]_tmp-6308a1fd09164%20(1).png");
+      background-size: contain;
+    }
+
+    /* Testimonials section */
+
+    .Testimonials h2 {
+      padding: 10px;
+      font-size: 35px;
+      font-weight: 800;
+      font-family: "open sans";
+      color: var(--third-text-color);
+      text-align: center;
+    }
+
+    .Testimonials hr {
+      width: 50px;
+      margin: auto;
+      padding: auto;
+      border: none;
+      border-radius: 10px;
+      height: 8px;
+      background-color: var(--sceond-text-color);
+    }
+    .testimonial-slider {
+      position: relative;
+      max-width: 1100px;
+      margin: 40px auto;
+      overflow: hidden;
+      padding: 0 40px;
+    }
+
+    .slider-track {
+      display: flex;
+      transition: transform 0.5s ease;
+      width: 100%;
+    }
+
+    .slide {
+      flex: 0 0 50%;
+      /* 2 cards visible */
+      box-sizing: border-box;
+      padding: 20px;
+      margin-right: 30px;
+      background: #fff;
+      display: flex;
+      gap: 20px;
+      border-radius: 8px;
+    }
+
+    .slide {
+      width: 145px;
+      height: 185px;
+    }
+
+    .slide img {
+      width: 142px;
+      height: 142px;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+
+    .slide-text {
+      flex: 1;
+    }
+
+    .slide h4 {
+      margin: 0 0 5px;
+      font-size: 22px;
+      color: #3292f0;
+    }
+
+    .slide span {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .slide p {
+      font-size: 13px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .slide hr {
+      margin-top: 15px;
+      width: 30px;
+      margin-left: 0;
+      border: none;
+      border-radius: 10px;
+      height: 5px;
+      background-color: var(--sceond-text-color);
+    }
+    .nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #3292f0;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .prev {
+      left: 10px;
+      background-color: transparent;
+    }
+
+    #left {
+      border: solid var(--third-text-color);
+      rotate: 135deg;
+      padding: 10px;
+      border-width: 0px 5px 5px 0px;
+    }
+
+    #left:hover {
+      border: solid var(--sceond-text-color);
+      border-width: 0px 5px 5px 0px;
+    }
+
+    #right:hover {
+      border: solid var(--sceond-text-color);
+      border-width: 0px 5px 5px 0px;
+    }
+
+    #right {
+      border: solid var(--third-text-color);
+      padding: 10px;
+      border-width: 0px 5px 5px 0px;
+    }
+
+    .next {
+      right: 0px;
+      background-color: transparent;
+    }
+
+    /* footer section */
+    .footer {
+      width: 100%;
+      height: auto;
+      color: var(--first-text-color);
+      background-color: #012243;
+      display: flex;
+      justify-content: space-around;
+      padding: 60px 45px;
+    }
+
+    .contant {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contant img {
+      width: 296px;
+    }
+
+    .contant p {
+      line-height: 1.8em;
+      font-size: 16px;
+    }
+
+    .icones {
+      display: flex;
+      width: 270px;
+      gap: 20px;
+      line-height: 1.8em;
+    }
+
+    .icones i {
+      color: var(--sceond-text-color);
+    }
+
+    #phone {
+      color: var(--sceond-text-color);
+      padding: 0;
+      background-color: transparent;
+      font-size: 16px;
+    }
+
+    .service-link {
+      width: 220px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .links h3 {
+      font-size: 22px;
+    }
+
+    .links hr {
+      width: 40px;
+      margin: 0;
+      border: none;
+      border-radius: 10px;
+      height: 3px;
+      background-color: var(--sceond-text-color);
+    }
+
+    .iocnes span {
+      padding: 0px 10px;
+      cursor: pointer;
+    }
+
+    .links span:hover {
+      color: var(--sceond-text-color);
+    }
+
+    .arrow {
+      border: solid var(--sceond-text-color);
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      rotate: -45deg;
+    }
+
+    .froms {
+      width: 450px;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .froms h2 {
+      font-size: 35px;
+      font-weight: 800;
+    }
+
+    .froms form input {
+      width: 430px;
+      padding: 10px;
+      margin: 5px 0px 20px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .froms form input::placeholder {
+      color: var(--fivth-text-color);
+    }
+
+    #Remember {
+      width: 20px;
+      margin: 0;
+    }
+
+    #submit {
+      width: 70px;
+      padding: 9px 10px;
+      background-color: #337ab7;
+      color: var(--first-text-color);
+    }
+
+    #submit:hover {
+      background-color: #1c5b93;
+    }
